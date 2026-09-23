@@ -7,5 +7,6 @@
     {% csrf_token %}
     {{ form|crispy }}
     <input class="btn btn-primary" type="submit" value="Submit">
+    <a href="javascript:history.back()" class="btn btn-secondary">Cancel</a>
   </form>
 {% endblock %}
